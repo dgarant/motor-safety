@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>An Analysis of Motorcycle Safety</title>
+  <meta charset="utf-8">
+  <meta name="description" content="An Analysis of Motorcycle Safety">
+  <meta name="author" content="Dan Garant">
+  <meta name="generator" content="slidify" />
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/default.css" media="all" >
+  <link rel="stylesheet" href="libraries/frameworks/io2012/phone.css" 
+    media="only screen and (max-device-width: 480px)" >
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/slidify.css" >
+  <link rel="stylesheet" href="libraries/highlighters/highlight.js/css/tomorrow.css" />
+  <base target="_blank"> <!-- This amazingness opens all links in a new tab. -->
+  <script data-main="libraries/frameworks/io2012/js/slides" 
+    src="libraries/frameworks/io2012/js/require-1.0.8.min.js">
+  </script>
+  
+    <link rel="stylesheet" href = "assets/css/default.css">
+<link rel="stylesheet" href = "assets/css/ribbons.css">
+
+</head>
+<body style="opacity: 0">
+  <slides class="layout-widescreen">
+    
+    <!-- LOGO SLIDE -->
+    <!-- END LOGO SLIDE -->
+    
+
+    <!-- TITLE SLIDE -->
+    <!-- Should I move this to a Local Layout File? -->
+    <slide class="title-slide segue nobackground">
+      <hgroup class="auto-fadein">
+        <h1>An Analysis of Motorcycle Safety</h1>
+        <h2>Why my girlfriend should let me ride a motorcycle</h2>
+        <p>Dan Garant<br/></p>
+      </hgroup>
+          </slide>
+
+    <!-- SLIDES -->
+      <slide class="" id="slide-1" style="background:;">
+  <hgroup>
+    <h2>Legend vs. Reality</h2>
+  </hgroup>
+  <article>
+    <ul>
+<li>Many people believe motorcycles are much more dangeous than cars</li>
+<li>Undoubtedly cyclists are more exposed and harder to see</li>
+<li>However, cyclists are also more alert</li>
+<li>It&#39;s clear from traffic statistics that cyclists are disproportionately involved in fatal accidents
+
+<ul>
+<li><a href="http://www-fars.nhtsa.dot.gov/">http://www-fars.nhtsa.dot.gov/</a></li>
+</ul></li>
+<li>Before we jump to conclusions about motorcycle safety, let&#39;s understand why this is</li>
+</ul>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+      <slide class="class" id="id" style="background:;">
+  <hgroup>
+    <h2>The Data</h2>
+  </hgroup>
+  <article>
+    <ul>
+<li>The National Highway Traffic Safety administration publishes a yearly data set describing fatal accidents occurring within that year</li>
+<li>For each accident, a number of factors are reported including weather conditions, time of day, whether safety devices were used, whether speeding or drugs were involved, etc.</li>
+<li>This presentation uses the 2011 data set, consisting of 67,143 accident reports</li>
+</ul>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+      <slide class="" id="slide-3" style="background:;">
+  <hgroup>
+    <h2>A Note About Relative Frequency</h2>
+  </hgroup>
+  <article>
+    <ul>
+<li>Without a doubt, there are more fatalities in accidents involving cars, trucks, and SUVs than there are involving motorcycles, so motorcycle accidents are less <strong>frequent</strong></li>
+<li>However, there are fewer registered motorcycles on the road, so the <strong>relative frequency</strong> of motor accidents is actually much higher</li>
+</ul>
+
+<p><img src="figure/unnamed-chunk-2.png" title="plot of chunk unnamed-chunk-2" alt="plot of chunk unnamed-chunk-2" style="display: block; margin: auto;" /></p>
+
+<ul>
+<li>So, let&#39;s get started ...</li>
+</ul>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+      <slide class="" id="slide-4" style="background:;">
+  <hgroup>
+    <h2>Helmet / Seatbelt Use</h2>
+  </hgroup>
+  <article>
+    <p>Over 70% of 4-wheeled vehicle operators use seat belts, but less than 40% of motorcyclists wear helmets</p>
+
+<p><img src="figure/unnamed-chunk-3.png" title="plot of chunk unnamed-chunk-3" alt="plot of chunk unnamed-chunk-3" style="display: block; margin: auto;" /></p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+      <slide class="" id="slide-5" style="background:;">
+  <hgroup>
+    <h2>Drug and Alcohol Usage</h2>
+  </hgroup>
+  <article>
+    <p>Motorcycle accidents are almost 15% more likely to involve drugs or alcohol than other accidents</p>
+
+<p><img src="figure/unnamed-chunk-4.png" title="plot of chunk unnamed-chunk-4" alt="plot of chunk unnamed-chunk-4" style="display: block; margin: auto;" /></p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+      <slide class="" id="slide-6" style="background:;">
+  <hgroup>
+    <h2>Speeding</h2>
+  </hgroup>
+  <article>
+    <p>Motorcycle accidents are about 10% more likely to have speeding as a factor, as indicated by police reports</p>
+
+<p><img src="figure/unnamed-chunk-5.png" title="plot of chunk unnamed-chunk-5" alt="plot of chunk unnamed-chunk-5" style="display: block; margin: auto;" /></p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+      <slide class="" id="slide-7" style="background:;">
+  <hgroup>
+    <h2>Legal Motorists</h2>
+  </hgroup>
+  <article>
+    <p>Many more motorcyclists than other operators are not legally permitted to drive their vehicles, 
+either because they never got a license, or it was revoked or suspended.</p>
+
+<p><img src="figure/unnamed-chunk-6.png" title="plot of chunk unnamed-chunk-6" alt="plot of chunk unnamed-chunk-6" style="display: block; margin: auto;" /></p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+      <slide class="" id="slide-8" style="background:;">
+  <hgroup>
+    <h2>Weather Conditions</h2>
+  </hgroup>
+  <article>
+    <p>Most motorcycle accidents occur in non-ideal motorcycle conditions, such as 
+urban environments, in poor weather, or in the dark.</p>
+
+<p><img src="figure/unnamed-chunk-7.png" title="plot of chunk unnamed-chunk-7" alt="plot of chunk unnamed-chunk-7" style="display: block; margin: auto;" /></p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+      <slide class="" id="slide-9" style="background:;">
+  <hgroup>
+    <h2>So What?</h2>
+  </hgroup>
+  <article>
+    <p>All of these factors are under the control of the cyclist.
+Let&#39;s see how things break down for a responsible cyclist 
+that only rides under ideal conditions.</p>
+
+<p>Responsibility Factors:</p>
+
+<ul>
+<li>Always wear a helmet</li>
+<li>Don&#39;t use drugs/alcohol</li>
+<li>Don&#39;t speed</li>
+<li>Don&#39;t ride with a revoked/suspended license</li>
+</ul>
+
+<p>Condition Factors:</p>
+
+<ul>
+<li>Don&#39;t ride in congested areas (e.g. cities)</li>
+<li>Don&#39;t ride in bad weather</li>
+<li>Don&#39;t ride in the dark</li>
+</ul>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+      <slide class="" id="slide-10" style="background:;">
+  <hgroup>
+    <h2>Judge the Risk for Yourself</h2>
+  </hgroup>
+  <article>
+    <p><img src="figure/unnamed-chunk-8.png" title="plot of chunk unnamed-chunk-8" alt="plot of chunk unnamed-chunk-8" style="display: block; margin: auto;" /></p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+    <slide class="backdrop"></slide>
+  </slides>
+
+  <!--[if IE]>
+    <script 
+      src="http://ajax.googleapis.com/ajax/libs/chrome-frame/1/CFInstall.min.js">  
+    </script>
+    <script>CFInstall.check({mode: 'overlay'});</script>
+  <![endif]-->
+</body>
+<!-- Grab CDN jQuery, fall back to local if offline -->
+<script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.7.min.js"></script>
+<script>window.jQuery || document.write('<script src="libraries/widgets/quiz/js/jquery-1.7.min.js"><\/script>')</script>
+<!-- Load Javascripts for Widgets -->
+<!-- LOAD HIGHLIGHTER JS FILES -->
+<script src="libraries/highlighters/highlight.js/highlight.pack.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+<!-- DONE LOADING HIGHLIGHTER JS FILES -->
+</html>
